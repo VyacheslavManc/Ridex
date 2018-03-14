@@ -1,0 +1,5 @@
+*.idea/
+*.pyc
+*.sqllite3
+__pycache__/
+migrations/

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+
+<html>
+
+
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <meta name="keywords" content="">
+
+  <meta name="description" content="">
+
+  <meta name="viewport" content="width=device-width">
+
+
+
+  <title>source</title>
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+
+  <link rel="stylesheet" href="slick/slick.css" type="text/css" media="screen" />
+
+  <link rel="stylesheet" href="slick/slick-theme.css" type="text/css" media="screen" />
+
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <link rel="stylesheet" href="js/formstyler/jquery.formstyler.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="js/formstyler/jquery.formstyler.min.js"></script>
+
+  <script type="text/javascript" src="js/raty/jquery.raty.min.js"></script>
+  <script type="text/javascript" src="js/jscharts.js"></script>
+
+
+
+  <link rel="stylesheet" type="text/css" href="css/stylem.css">
+
+  <script type="text/javascript" src="js/init.js"></script>
+
+
+
+  <!--[if IE 9]>
+
+      <link rel="stylesheet" type="text/css" href="css/ie9.css">
+
+      <script type="text/javascript" src="js/placeholder.js"></script>
+
+    <![endif]-->
+
+
+
+</head>
+
+
+
+<body>
+
+  <div id="wrapper">
+
+  <div class="wrapper">
+
+
+
+
+  <header class="header header_m">
+
+    <div class="container containersize1200">
+      <div class="row">
+        <div class="col-xs-4">
+          <div class="logo_top">
+            <img  src="images/logo.png" alt="">
+          </div>
+        </div>
+        <div class="col-xs-8">
+          <div  class="user_log">
+            <div class="title_user_log">Личный кабинет</div>
+            <form id="form">
+                <input class="input" name="name" type="text" placeholder="Логин">
+                <input class="input" name="password" type="password" placeholder="Пароль">
+                <input type="submit" class="send_button" value="Войти">
+            </form>
+          </div>
+          <div class="autoris_login">
+            <div class="name_user_aut">Здравствуйте, Name</div>
+            <a href="#" class="btn_user">Выйти</a>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="menu_center_group">
+            <div class="main_menu">
+              <ul>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Проверка заказов</a></li>
+                <li><a href="#">Как купить</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Поддержка</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+
+
+
+
+
+
+
+    <div class="maincontent contentbord">
+
+      <div class="container containersize1200">
+
+        <div class="row">
+          
+          <div class="col-xs-12 col-md-3 col-lg-2">
+              <a href="#" id="menu-toggle">Меню</a>
+              <div   id="aside">
+                 <a href="#" class="closas" id="closas">jjjj</a>
+                <div class="asides">
+
+                  <ul class="ul_asid">
+                    <li><a href="#">Товары</a></li>
+                    <li><a href="#">Продажи</a></li>
+                    <li><a href="#">Менеджеры</a></li>
+                    <li><a href="#">Зарплата</a></li>
+                    <li><a href="#">Настройки</a></li>
+                    <li><a href="#">Тикеты</a></li>
+                    <li><a href="#">Уведомления</a></li>
+                    <li><a href="#">Чат <span class="chat">(+1)</span></a></li>
+                  </ul>
+                  <div class="block_asides">
+                    <div class="title_sdide">Баланс:3000 р.</div>
+                    <a href="#" class="btn_aside">Вывести средства</a>
+                  </div>
+                  <div class="block_asides">
+                    <div class="title_sdide">Требуется залог: <span>3000 р.</span></div>
+                    <a href="#" class="btn_aside">Оплатить залог</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+
+          <div class="col-xs-12 col-md-9 col-lg-10">
+            <a href="#" class="a_back">&lt; Назад к товарам</a>
+
+            <div class="titlecontent">новая группа</div>
+            <form id=" ">
+
+              <div class="row">
+                <div class="col-xs-12 col-md-12 col-lg-6">
+
+                  <div class="wrap_group50">
+
+                    <div class="wrap_group_l">
+                      <div class="form_label lab_size_block">Название:</div> 
+                      <div class="block_formitem">
+                        <input type="text" class="input_content">
+                      </div>
+                    </div><!--wrap_group-->
+                    <div class="wrap_group_l">
+                      <div class="form_label lab_size_block">Категория:</div> 
+                      <div class="block_formitem">
+                        <input type="text" class="input_content">
+                      </div>
+                    </div><!--wrap_group-->
+                    <div class="row">
+                      <div class="col-xs-12 col-md-12 col-lg-6">
+                        <div class="wrap_group_l">
+                          <div class="form_label lab_size_block">теги:</div> 
+                          <div class="block_formitem">
+                            <input type="text" class="input_content">
+                          </div>
+                        </div><!--wrap_group-->
+                      </div>
+                      <div class="col-xs-12 col-md-12 col-lg-6">
+                        <div class="wrap_group_l">
+                          <div class="form_label lab_size_block">Цена:</div> 
+                          <div class="block_formitem">
+                            <input type="text" class="input_content">
+                          </div>
+                        </div><!--wrap_group-->
+                      </div>
+                    </div>
+
+                    <div class="wrap_group_l">
+                      <div class="text_form_bot">Введите значение цены в рублях!</div> 
+                    </div><!--wrap_group-->
+
+                  </div>
+                  
+                </div>
+                <div class="col-xs-12 col-md-12 col-lg-6">
+
+                  <div class="wrap_group_foto50">
+                    <div class="block_fotoupl">
+                      <div class="img_fotoupl"><img src="images/foto-def.jpg" alt=""></div>
+                    </div>
+                    <div class="block_fotoupl">
+                      <div class="form_label lab_size_block">Добавьте фото:</div> 
+                      <a href="#" class="btn_type14">Добавить фото</a>
+                    </div>
+                  </div><!--wrap_group_input-->
+
+                 
+                  <div class="wrap_group_inl2">
+                     <div class="form_label">Зарплата менеджера:</div> 
+                    <div class="wr_input_c">
+                      <input type="text" class="input_content" value="3">
+                    </div>
+
+                    <div class="wrap-select">
+                      <select name="" id="" class="select">
+                        <option value="">%</option>
+                        <option value="">20</option>
+                        <option value="">30</option>
+                        <option value="">40</option>
+                      </select>
+                    </div>
+                  </div><!--wrap_group_inl2-->
+               
+
+                  
+                </div>
+              </div><!--row-->
+
+
+
+
+            
+
+              <div class="wrap_group_input">
+                <div class="form_label lab_size_block">описание на сайте:</div> 
+                <div class="block_formitem">
+                    <textarea name="" id="" class="textarea_rev  textarea_t2" placeholder="Введите описание (не менее 500 символов)"></textarea>
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="col-xs-12 col-md-12 col-lg-12">
+                  <div class="title_form_gr">Настройки:</div>
+                </div><!--col-xs-12-->
+
+                <div class="col-xs-12 col-md-12 col-lg-5 block_50_lab">
+
+               
+                  <div class="form_label lab_size_block">менеджеры:</div> 
+            
+                  <div class="block_btn_w50">
+                    <a href="#" class="order_btn color_r">Отметить всех</a>
+                    <a href="#" class="order_btn color_w">Снять отметки</a>
+                  </div>
+
+
+                  <div class="wrap_block_table">
+                    <div class="table_cont">
+                      <div class="tabrow">
+                        <div class="tabtd"></div>
+                        <div class="tabtd">Логин:</div>
+                        <div class="tabtd">Регион:</div>
+                      </div>
+                      <div class="tabrow">
+                        <div class="tabtd">
+                          <div class=" wr_input_type">
+                            <input type="checkbox" class="input_check">
+                          </div>
+                        </div>
+                        <div class="tabtd">Tanya</div>
+                        <div class="tabtd">Москва</div>
+                      </div>
+                      <div class="tabrow">
+                        <div class="tabtd">
+                          <div class="wr_input_type">
+                            <input type="checkbox" class="input_check">
+                          </div>
+                        </div>
+                        <div class="tabtd">Tanya</div>
+                        <div class="tabtd">Нижний  Новгород</div>
+                      </div>
+                      <div class="tabrow">
+                        <div class="tabtd">
+                          <div class="wr_input_type">
+                            <input type="checkbox" class="input_check">
+                          </div>
+                        </div>
+                        <div class="tabtd">10</div>
+                        <div class="tabtd">Санкт- Петербург</div>
+                      </div>
+                      <div class="tabrow">
+                        <div class="tabtd">
+                          <div class="wr_input_type">
+                            <input type="checkbox" class="input_check">
+                          </div>
+                        </div>
+                        <div class="tabtd">Tanya</div>
+                        <div class="tabtd">Москва</div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!--col-xs-12-->
+
+
+  
+                <div class="col-xs-12 col-md-12 col-lg-5 col-lg-offset-2 col-md-offset-0 block_50_lab">
+
+           
+                  <div class="form_label lab_size_block">Разрешения для менеджеров:</div> 
+            
+
+                  <div class="wrap_block_table table_type">
+                    <div class="table_cont">
+                      <div class="tabrow">
+                        <div class="tabtd"></div>
+                        <div class="tabtd">Видеть:</div>
+                        <div class="tabtd">Редактировать:</div>
+                      </div>
+                      <div class="tabrow">
+                        <div class="tabtd">Цена</div>
+                        <div class="tabtd">
+                          <div class="wr_input_type">
+                            <input type="checkbox" class="input_check">
+                          </div>
+                        </div>
+                        <div class="tabtd">
+                          <div class="wr_input_type">
+                            <input type="checkbox" class="input_check">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tabrow">
+                        <div class="tabtd">Фото на сайте</div>
+                        <div class="tabtd">
+                          <div class="wr_input_type">
+                            <input type="checkbox" class="input_check">
+                          </div>
+                        </div>
+                        <div class="tabtd">
+                          <div class="wr_input_type">
+                            <input type="checkbox" class="input_check">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tabrow">
+                        <div class="tabtd">Описание на сайте</div>
+                        <div class="tabtd">
+                          <div class="wr_input_type">
+                            <input type="checkbox" class="input_check">
+                          </div>
+                        </div>
+                        <div class="tabtd">
+                          <div class="wr_input_type">
+                            <input type="checkbox" class="input_check">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tabrow">
+                        <div class="tabtd">Теги</div>
+                        <div class="tabtd">
+                          <div class="wr_input_type">
+                            <input type="checkbox" class="input_check">
+                          </div>
+                        </div>
+                        <div class="tabtd">
+                          <div class="wr_input_type">
+                            <input type="checkbox" class="input_check">
+                          </div>
+                        </div>
+                      </div>
+                 
+                    </div>
+                  </div>
+
+
+
+                  <div class="wrap_group_input">
+                    <div class="form_label lab_size_block">премодерация:</div> 
+                    <div class="block_formitem wr_input_type">
+                        <input type="checkbox" class="input_check input_check_inl" checked="checked" />
+                        <div class="check_label">Задать премодерацию товаров в этой категории</div>
+                    </div>
+                  </div>
+                </div>
+
+              </div><!--row-->
+
+
+      
+              <div class="wrap_group_input form_grey">
+                <div class="title_form_gr">Seo-настройки:</div>
+                <div class="block_formitem">
+                  <div class="form_label">URL:</div> 
+                  <div class="wr_input_cont"> 
+                      <input type="text" class="input_content" placeholder>
+                  </div>
+                </div>
+                <div class="block_formitem">
+                  <div class="form_label">Description:</div>  
+                  <div class="wr_input_cont">
+                      <input type="text" class="input_content" placeholder>
+                  </div>
+                </div>
+                <div class="block_formitem">
+                  <div class="form_label">Keywords:</div> 
+                  <div class="wr_input_cont"> 
+                      <input type="text" class="input_content" placeholder>
+                  </div>
+                </div>
+                <div class="block_formitem">
+                  <div class="form_label">Title:</div> 
+                  <div class="wr_input_cont"> 
+                      <input type="text" class="input_content" placeholder>
+                  </div>
+                </div>
+                <div class="block_formitem">
+                  <div class="form_label">H1:</div>  
+                  <div class="wr_input_cont">
+                      <input type="text" class="input_content" placeholder>
+                  </div>
+                </div>
+
+              </div><!--wrap_group_input-->
+
+
+
+              <div class="wrap_relproduct">
+      
+                <div class="title_form_gr">Похожие товары:</div>
+                <div class="row slider_rtov">
+                  <div class="col-xs-6 col-md-4 col-lg-3">
+                    <a href="#"  class="item_r_product">
+                      <img src="images/rt1.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="col-xs-6 col-md-4 col-lg-3">
+                    <a href="#" class="item_r_product">
+                      <img src="images/rt2.jpg" alt="">
+                    </a>
+                  </div>
+                </div>
+  
+              </div><!--wrap_relproduct-->
+
+
+
+              <div class="wrap_group_l">
+                <input type="submit" class="btn_type14" value="Сохранить">
+              </div>
+            </form>
+
+
+          </div><!--col-md-9-->
+        </div><!--row-->
+
+      </div>
+
+    </div><!--maincontent-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+
+      <div class="container containersize1200">
+
+        <div class="row">
+
+          <div class="col-xs-12 col-md-4 col-lg-6">
+
+            <a href="#" class="logo_foot"><img src="images/logo_foot.png" alt=""></a>
+
+            <div class="copy">(c) Название 2017</div>
+
+          </div><!--col-xs-12-->
+
+          <div class="col-xs-12 col-md-8 col-lg-6">
+
+            <div class="footmenu_wr">
+
+              <ul class="foot_menu">
+
+                <li><a href="#">Vkontakte</a></li>
+
+                <li><a href="#">Skype</a></li>
+
+                <li><a href="#">Whatsapp</a></li>
+
+                <li><a href="#">Viber</a></li>
+
+                <li><a href="#">Мой Мир @Mail.ru</a></li>
+
+                <li><a href="#">Telegram</a></li>
+
+                <li><a href="#">Одноклассники</a></li>
+
+                <li><a href="#">ICQ</a></li>
+
+                <li><a href="#">Jabber</a></li>
+
+              </ul>
+
+            </div>
+
+          </div><!--col-xs-12-->
+
+        </div>
+
+      </div>
+
+    </div><!--footer-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div><!--wrapper-->
+</div>
+
+</body>
+
+
+
+</html>
+
