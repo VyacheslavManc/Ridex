@@ -20,5 +20,5 @@ from Catalog import views
 admin.autodiscover()
 
 urlpatterns = [
-    url(r'^$', views.cat, name='cat'),
+    url(r'^$', views.catalog, name='catalog'),
 ]

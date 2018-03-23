@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def how_to_buy(request):
+    return render(request, 'buy.html')

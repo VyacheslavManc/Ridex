@@ -21,4 +21,6 @@ admin.autodiscover()
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
+    url(r'^reviews/$', views.reviews, name='reviews'),
+    url(r'^support/$', views.support, name='support')
 ]

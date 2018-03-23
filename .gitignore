@@ -1,5 +1,6 @@
 *.idea/
 *.pyc
 *.sqllite3
+*.pdf
 __pycache__/
 migrations/

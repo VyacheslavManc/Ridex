@@ -3137,6 +3137,93 @@ input[type="submit"].btn_type14{
 
 
 
+.news_main-d{
+	padding: 3% 0 7% 0;
+}
+.news_name_d{
+	color: #0e1012;
+	font-size: 38px;
+	line-height: 45px;
+	font-family: 'DINPro-Medium';
+	text-transform: uppercase;
+	display: block;
+	text-decoration: none;
+}
+
+.date_d{
+	color: #9ba1a9;
+	font-family: 'DINPro-Medium';
+	font-size: 15px;
+}
+
+.news_items{
+	margin: 10px 0 10px 0;
+	    padding-right: 23%;
+			min-height: 210px;
+}
+.news_tit{
+	font-size: 20px;
+	font-family: 'DINPro-Bold';
+	color: #000000;
+	line-height: 25px;
+	display: block;
+	text-decoration: none;
+	min-height: 90px;
+	margin-bottom: 10px;
+}
+
+.img_news{
+	float: left;
+	margin: 0 15px 15px 0;
+	max-width: 300px;
+	width: auto;
+}
+.img_news img{
+	width: auto;
+	max-width: 100%;
+}
+.item_onenews .date_d{
+	margin: 0 0 15px 0;
+}
+.news_title {
+    color: #888c91;
+    font-family: 'DINPro-Medium';
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.block_slider {
+    padding: 0 0 0% 0;
+    width: 650px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.block_news {
+    background-image: url(../images/newsfon.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding: 50px 0 50px 0;
+}
+.block_news .news_name {
+    color: #ffffff;
+    font-size: 47px;
+    line-height: 55px;
+    padding: 45px 0 45px 0;
+    /* font-family: 'DINPro-Bold'; */
+    font-family: 'DINPro-Medium';
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+}
+.date {
+    font-family: 'DINPro-Medium';
+    color: #fff;
+    font-size: 18px;
+}
+.btn_catalog .order_btn{
+	width: 170px;
+}
 
 
 
@@ -3688,6 +3775,28 @@ input[type="submit"].btn_type14{
 	    margin-top: 20px;
 	}
 
+	.block_news .news_name {
+	    font-size: 26px;
+	    line-height: 40px;
+	}
+	.img_news {
+	    float: none;
+	    margin: 15px auto 15px auto;
+	    text-align: center;
+	}
+	.news_name_d {
+	    color: #0e1012;
+	    font-size: 26px;
+	    line-height: 30px;
+	}
+	.block_newses .col-xs-6 {
+		width: 100%;
+	}
+	.news_items {
+	    margin: 10px 0 20px 0;
+	    padding-right: 0;
+	    min-height: inherit;
+	}
 
 
 }
@@ -3776,6 +3885,15 @@ input[type="submit"].btn_type14{
  	display: none;
  }
 
+.right_s{
+	text-align: right;
+	margin: 40px 0 0 0;
+}
+.right_s .form_label{
+	width: 100%;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
 
 
 
@@ -3785,9 +3903,11 @@ input[type="submit"].btn_type14{
 
 
 
-
-
-
+@media(max-width:1200px) {
+	.right_s{
+	text-align: left;
+}
+}
 
 
 
